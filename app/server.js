@@ -7,6 +7,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
+app.get('/',(req,res)=>{
+  res.send('anshuman');
+})
 
 app.use("/", require("./routes/api/admin"));
 app.use("/auth", require("./routes/api/auth"));
