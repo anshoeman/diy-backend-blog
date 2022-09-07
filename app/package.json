@@ -19,7 +19,7 @@
   },
   "name": "internship",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "/app/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anshoeman/science-DIY-Blog-Application.git"
