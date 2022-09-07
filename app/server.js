@@ -8,9 +8,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 
-app.use("/", require("../routes/api/admin"));
-app.use("/auth", require("../routes/api/auth"));
-app.use("/publishblog", require("../routes/api/Blogs"));
+app.use("/", require("./routes/api/admin"));
+app.use("/auth", require("./routes/api/auth"));
+app.use("/publishblog", require("./routes/api/Blogs"));
 
 
 const PORT = process.env.PORT || 5000;
